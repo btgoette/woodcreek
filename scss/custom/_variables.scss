@@ -10,6 +10,6 @@ $secondary: $dark;
 
 // Fonts
 $body-font-family: "Open Sans";
-$header-font-family: "Antique Book Cover";
+$header-font-family: $body-font-family;
 $nav-font-family: $body-font-family;
 $button-font-family: $body-font-family;

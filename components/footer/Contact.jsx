@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Contact() {
     return (
-        <div>
+        <div className="contact">
             <h2 className="mt-0">Contact</h2>
-            <div className="mx-auto text-left">
+            <div className="footer-address">
                 <p className="contact">
                     <Link href="tel:9166633000" className="d-flex align-items-center">
                         <i className="fa fa-phone"></i>&nbsp;&nbsp;

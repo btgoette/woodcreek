@@ -7,7 +7,7 @@ let logo = {
 
 export default function Logo() {
     return(
-        <div className="logo d-flex align-items-center">
+        <div className="logo d-flex justify-content-center align-items-center">
             <figure className="mb-0">
               <Image
                 src={logo.img}

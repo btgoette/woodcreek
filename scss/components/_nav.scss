@@ -2,6 +2,12 @@ nav {
   font-family: $nav-font-family;
   border-bottom: 1px solid $secondary;
 
+  .logo {
+    img{
+      height: 100px;
+    }
+  }
+
   &.navbar-light {
     .navbar-nav {
       .nav-link {
