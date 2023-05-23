@@ -148,12 +148,6 @@ body {
   letter-spacing: 3px;
   font-family: "Antique Book Cover";
   color: $white;
-  &:hover {
-    background: -webkit-linear-gradient(0deg, $secondary 0%, $light-gold 60%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
 }
 
 a {
