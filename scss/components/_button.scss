@@ -1,0 +1,31 @@
+.btn {
+  font-family: $button-font-family;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &.btn-primary {
+    background: $primary;
+    border-color: transparent;
+    color: $white;
+    transition: 0.5s;
+
+    &:focus,
+    &:hover {
+      background: $dark;
+    }
+  }
+
+  &.btn-secondary {
+    background: $secondary;
+    border-color: transparent;
+    color: $white;
+    transition: 0.5s;
+
+    &:focus,
+    &:hover {
+      background: $dark;
+    }
+  }  
+
+}
