@@ -100,7 +100,7 @@ export default function Socials() {
 
     return (
         <div>
-            <p className="socials d-flex">
+            <p className="socials d-flex justify-content-center mx-auto">
                 {renderFacebook()}
                 {renderInstagram()}
                 {renderTwitter()}

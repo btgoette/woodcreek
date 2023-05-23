@@ -15,11 +15,13 @@ export default function Footer() {
         <section className="bg-light py-5">
           <Container className="px-4 py-5">
             <Row className="align-items-top justify-content-center">
-              <Col md={{ span: 3, offset: 1 }}>
-                <Link href="/">
-                  <Logo />
-                </Link>
-                <Socials />
+              <Col md="3">
+                <div className="mt-5 text-center">
+                  <Link href="/">
+                    <Logo />
+                  </Link>
+                  <Socials />
+                </div>
               </Col>
               <Col md="3">
                 <Contact />

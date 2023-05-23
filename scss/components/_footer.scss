@@ -1,5 +1,5 @@
 footer {
-  h2{
+  h2 {
     font-size: 2rem;
     font-weight: 600;
     text-decoration: underline;
@@ -7,10 +7,14 @@ footer {
   }
 
   .logo {
+    img {
+      height: 125px;
+    }
     margin-bottom: 1rem;
   }
 
   .menu {
+    text-align: center;
     a {
       color: $black;
 
@@ -18,11 +22,16 @@ footer {
         color: $primary;
       }
     }
+    .links {
+      text-align: left;
+      margin: 0 auto;
+      width: min-content;
+    }
 
     .border-start {
       border-radius: 0;
       border-width: 2px !important;
-      border-color: transparent transparent transparent $primary!important;
+      border-color: transparent transparent transparent $primary !important;
     }
   }
 
@@ -54,7 +63,13 @@ footer {
     }
   }
 
-  .footer-address {
-    font-size: 1rem;
+  .contact {
+    text-align: center;
+    .footer-address {
+      text-align: left;
+      margin: 0 auto;
+      width: max-content;
+      font-size: 1rem;
+    }
   }
 }
