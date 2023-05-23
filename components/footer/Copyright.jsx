@@ -1,17 +1,21 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Link from 'next/link'
 
-export default function CopyRight() {
+let copyright = {
+    company:"Woodcreek Carpetech"
+}
+
+export default function Copyright() {
 
     const today = new Date();
+
     return (
-        <section>
+        <section className="bg-dark text-white">
             <Container>
                 <Row>
                     <Col>
                         <p className="mt-3 text-center text-sm">
-                            &copy; {today.getFullYear()} Jeff Smith Construction - JSCS,
-                            Inc.
+                            &copy; {today.getFullYear()} {copyright.company}
                             <br />
                             All rights reserved. All files, images, and information
                             contained in this Website copyright by JSCS, Inc. and may not

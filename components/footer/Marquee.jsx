@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function FooterMarquee() {
     return (
-        <section className="bg-gold">
+        <section className="bg-secondary text-white">
             <Container fluid>
                 <Row>
                     <Col>
