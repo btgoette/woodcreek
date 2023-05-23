@@ -1,16 +1,60 @@
 footer {
-  .footer-socials {
-    img {
-      max-height: 50px;
-      padding-right: 10px;
+  h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .menu {
+    a {
+      color: $black;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    .border-start {
+      border-radius: 0;
+      border-width: 2px !important;
+      border-color: transparent transparent transparent $primary!important;
     }
   }
+
+  .socials {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        border-color: $primary;
+      }
+
+      &.nextdoor {
+        img {
+          width: 1rem;
+          margin-right: 1px;
+        }
+      }
+    }
+    img {
+      width: 1rem;
+    }
+  }
+  .bbb {
+    padding: 0 0;
+    margin: 0 0;
+    img {
+      height: 75px;
+    }
+  }
+
   .footer-address {
     font-size: 1rem;
-  }
-  .border-start {
-    border-radius: 0;
-    border-width: 2px !important;
-    border-color: transparent transparent transparent $white;
   }
 }
