@@ -11,20 +11,14 @@ import {
 } from "react-bootstrap";
 import Link from "next/link";
 
+import Logo from './Logo';
+
 export default function CustomNav() {
   return (
-    <Navbar collapseOnSelect expand="xl" className="bg-primary" variant="dark">
+    <Navbar collapseOnSelect expand="xl" variant="light">
       <Container>
-        <Navbar.Brand href="">
-          <div className="nav-logo logo d-flex align-items-center">
-            <figure className="mb-0">
-              <Image
-                src="/images/logos/jscs-gradient.webp"
-                alt="Jeff Smith Construction"
-              />
-            </figure>
-            <p className="ps-3 mt-3 mb-0">JSCS Inc.</p>
-          </div>
+        <Navbar.Brand href="/">
+          <Logo />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
