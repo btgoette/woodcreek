@@ -17,7 +17,6 @@ export default function Home() {
     <div>
       <Head {...head} />
       <Carousels />
-      <Section />
       <Cards />
     </div>
   );
