@@ -1,7 +1,7 @@
 import Hero from "components/Hero";
 
 let hero = {
-  title:"Contact Us"
+  title:"Carpet Cleaning"
 }
 
 export default function Contact() {

@@ -1,10 +1,10 @@
 import Hero from "components/Hero";
 
 let hero = {
-  title: "Tenant Improvements",
+  title: "Tile Cleaning",
 };
 
-export default function TenantImprovements() {
+export default function Services() {
   return (
     <div>
       <Hero {...hero} />

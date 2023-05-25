@@ -14,19 +14,25 @@ export default function Footer() {
       <footer>
         <section className="bg-light py-5">
           <Container className="px-4 py-5">
-            <Row className="align-items-top justify-content-center">
-              <Col md="3">
-                <div className="mt-5 text-center">
+            <Row className="align-items-center justify-content-center">
+              <Col md="4">
+                <div className="text-center">
                   <Link href="/">
                     <Logo />
                   </Link>
+                  <h3>Established 2002</h3>
                   <Socials />
                 </div>
               </Col>
-              <Col md="3">
+              <Col md="4">
                 <Contact />
+                <div>
+                  <figure>
+                    <Image src="images/footer/rchlogo.png" alt="Roseville Chamber of Commerce" />
+                  </figure>
+                </div>
               </Col>
-              <Col md="3">
+              <Col md="4">
                 <Menu />
               </Col>
             </Row>

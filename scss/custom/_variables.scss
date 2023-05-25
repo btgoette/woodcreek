@@ -1,15 +1,15 @@
 // Colors
-$black: #010101;
-$dark: #372D37;
-$grey: #847D85;
-$red: #7D2E30;
+$black: #030303;
+$dark: #4a4a4a;
+$grey: #7f7f7f;
+$red: #800000;
 $white: #fff;
 
 $primary: $red;
-$secondary: $dark;
+$secondary: $black;
 
 // Fonts
 $body-font-family: "Open Sans";
-$header-font-family: $body-font-family;
-$nav-font-family: $body-font-family;
+$header-font-family: "elizeth-condensed", serif;
+$nav-font-family: $header-font-family;
 $button-font-family: $body-font-family;

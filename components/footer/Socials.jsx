@@ -7,24 +7,12 @@ import "public/fonts/FontAwesome/fontawesome";
 let socials = {
     yelp: "https://www.yelp.com/biz/woodcreek-carpet-tech-roseville",
     facebook: "https://www.facebook.com/people/Woodcreek-Carpet-Tech/100068233811081/?_rdr",
-    nextdoor: "https://nextdoor.com/pages/woodcreek-carpet-tech/",
+    nextdoor: "https://nextdoor.com/pages/woodcreek-carpet-tech/"
 }
 
 export default function Socials() {
 
     /* Check For Socials */
-    /* BBB */
-    function renderBBB() {
-        if (socials.bbb !== undefined) {
-            return (
-                <p className="bbb">
-                    <Link className="btn btn-outline-dark btn-floating m-1" href={socials.bbb}>
-                        <Image src="images/footer/bbb.webp" alt="bbb" />
-                    </Link>
-                </p>
-            )
-        }
-    }
 
 
     function renderFacebook() {
@@ -87,16 +75,12 @@ export default function Socials() {
         if (socials.yelp !== undefined) {
             return (
                 <Link className="btn btn-outline-dark btn-floating m-1" href={socials.yelp}>
-                    
+
                     <i className="fab fa-yelp"></i>
                 </Link>
             )
         }
     }
-
-
-
-
 
     return (
         <div>
@@ -108,7 +92,6 @@ export default function Socials() {
                 {renderNextdoor()}
                 {renderYelp()}
             </p>
-            {renderBBB()}
         </div>
     )
 }

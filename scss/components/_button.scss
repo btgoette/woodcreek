@@ -9,6 +9,7 @@
     border-color: transparent;
     color: $white;
     transition: 0.5s;
+    box-shadow: 0 4px 9px -4px $grey;
 
     &:focus,
     &:hover {

@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from 'next/link'
 
 let copyright = {
-    company:"Woodcreek Carpetech"
+    company:"Woodcreek CarpeTech"
 }
 
 export default function Copyright() {
@@ -18,7 +18,7 @@ export default function Copyright() {
                             &copy; {today.getFullYear()} {copyright.company}
                             <br />
                             All rights reserved. All files, images, and information
-                            contained in this Website copyright by JSCS, Inc. and may not
+                            contained in this Website copyright by {copyright.company} and may not
                             be duplicated, copied, modified, or adapted, in any way
                             without our written permission.
                             <br />
