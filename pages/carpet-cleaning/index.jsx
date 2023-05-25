@@ -1,13 +1,13 @@
 import Hero from "components/Hero";
 
 let hero = {
-  title:"Testimonials"
-}
+  title: "Our Services",
+};
 
-export default function Testimonials() {
+export default function Services() {
   return (
     <div>
-      <Hero {...hero}/>
+      <Hero {...hero} />
     </div>
   );
 }
