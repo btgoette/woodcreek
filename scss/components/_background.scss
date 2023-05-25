@@ -1,7 +1,31 @@
-.bg-primary{
+.bg-primary {
   background-color: $primary !important;
+  color: $white;
+  a {
+    color: $white;
+  }
 }
 
+.bg-white {
+  background-color: $white;
+  color: $black;
+  a {
+    color: $primary;
+  }
+}
+
+.bg-light {
+  color: $black;
+  a {
+    color: $black;
+  }
+}
+
+.bg-dark,
 .bg-secondary {
   background-color: $secondary !important;
+  color: $white;
+  a {
+    color: $white;
+  }
 }
