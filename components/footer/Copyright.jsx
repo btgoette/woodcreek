@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from 'next/link'
 
 let copyright = {
-    company:"Woodcreek CarpeTech"
+    company:"Woodcreek Carpet Tech"
 }
 
 export default function Copyright() {

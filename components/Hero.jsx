@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Hero(hero) {
   return (
     <>
-      <section className="hero">
+      <section className={hero.background + " hero"}>
         <Container>
           <Row>
             <Col className="text-center py-5">

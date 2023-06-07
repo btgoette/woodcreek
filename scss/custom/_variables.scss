@@ -1,12 +1,16 @@
 // Colors
 $black: #030303;
-$dark: #4a4a4a;
+$dark: #404040;
 $grey: #7f7f7f;
+$light: #c0c0c0;
 $red: #800000;
 $white: #fff;
 
+$transparent-red: #800000aa;
+
 $primary: $red;
 $secondary: $black;
+$transparent-primary: $transparent-red;
 
 // Fonts
 $body-font-family: "Open Sans";

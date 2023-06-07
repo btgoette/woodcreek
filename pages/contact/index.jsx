@@ -1,7 +1,8 @@
 import Hero from "components/Hero";
 
 let hero = {
-  title:"Carpet Cleaning"
+  background: "contact",
+  title:"Contact Us"
 }
 
 export default function Contact() {

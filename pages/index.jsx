@@ -1,22 +1,26 @@
 import Head from "components/Head";
-import Carousels from "components/Carousels";
-import Section from "components/Section";
+import Hero from "components/Hero";
 import Cards from "components/Cards";
 
 let head = {
-  title: "Jeff Smith Construction JSCS Inc.",
+  title: "Woodcreek Carpet Tech",
   description:
-    "Commercial General Contractor Sacramento CA.  Jeff Smith Construction - Commercial Construction, Tenant Improvement, Commercial Design & Build. Restaurants, Offices, Retail Commercial Construction. Commercial Construction Rocklin Roseville Folsom Auburn",
-  image: "https://jeffsmithconstruction.com/images/logos/jscs-gradient.webp",
+    "Professional carpet cleaning, rug cleaning, tile & grout cleaning, carpet installation, upholstery cleaning, RV cleaning, and more. Exceptional results, eco-friendly methods. Enhance your space with our comprehensive services. Call now!",
+  image: "https://woodcreekcarpettech.com/images/logos/logo.webp",
   imageType: "image/webp",
   robots: "INDEX, FOLLOW",
 };
+
+let hero = {
+  background: "home",
+  title: "Woodcreek Carpet Tech"
+}
 
 export default function Home() {
   return (
     <div>
       <Head {...head} />
-      <Carousels />
+      <Hero {...hero}/>
       <Cards />
     </div>
   );

@@ -27,9 +27,11 @@ export default function Footer() {
               <Col md="4">
                 <Contact />
                 <div>
-                  <figure>
-                    <Image src="images/footer/rchlogo.png" alt="Roseville Chamber of Commerce" />
-                  </figure>
+                  <Link href="https://www.rosevillechamber.com/" target="_blank">
+                    <figure>
+                      <Image src="/images/footer/rchlogo.png" alt="Member of the Roseville Chamber of Commerce" title="Member of the Roseville Chamber of Commerce" />
+                    </figure>
+                  </Link>
                 </div>
               </Col>
               <Col md="4">

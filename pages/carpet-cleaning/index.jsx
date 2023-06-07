@@ -1,13 +1,16 @@
 import Hero from "components/Hero";
+import FAQ from "components/FAQ";
 
 let hero = {
-  title: "Our Services",
+  background: "carpet-cleaning",
+  title: "Carpet Cleaning",
 };
 
-export default function Services() {
+export default function CarpetCleaning() {
   return (
     <div>
       <Hero {...hero} />
+      <FAQ />
     </div>
   );
 }
