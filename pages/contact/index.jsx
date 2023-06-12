@@ -1,4 +1,7 @@
-import Hero from "components/Hero";
+import { Container, Row, Col, Image } from 'react-bootstrap';
+
+import Head from 'components/Head';
+import Hero from 'components/Hero';
 
 let hero = {
   background: "contact",

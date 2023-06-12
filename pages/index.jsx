@@ -1,6 +1,9 @@
+import { Container, Row, Col, Image } from 'react-bootstrap'
+
 import Head from "components/Head";
 import Hero from "components/Hero";
 import Cards from "components/Cards";
+
 
 let head = {
   title: "Woodcreek Carpet Tech",
@@ -20,7 +23,18 @@ export default function Home() {
   return (
     <div>
       <Head {...head} />
-      <Hero {...hero}/>
+      <Hero {...hero} />
+      <section className="py-5">
+        <Container>
+          <Row className="my-5 text-center">
+            <Col md={{ span: 8, offset: 2 }}>
+              <h2>Your Placer &amp; Sacramento County Cleaning Solution</h2>
+              <p>Welcome to Woodcreek Carpet Tech, where we provide a transparent and thorough cleaning service that eliminates any unexpected surprises commonly encountered with other companies. Our commitment is to offer a high-quality and trustworthy cleaning experience. Contact us today for a reliable service you can count on! </p>
+              <p>We proudly serve Placer and Sacramento County, including Auburn, Carmichael, Citrus Heights, Granite Bay, El Dorado Hills, Elk Grove, Fair Oaks, Folsom, Lincoln, Loomis, Newcastle, Rocklin, Roseville, Rancho Cordova, and Sacramento.</p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <Cards />
     </div>
   );

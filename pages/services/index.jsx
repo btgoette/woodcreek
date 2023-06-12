@@ -1,4 +1,6 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
+
+import Head from 'components/Head';
 import Hero from 'components/Hero';
 
 let hero = {
@@ -12,93 +14,84 @@ export default function Services() {
       <Hero {...hero} />
       <section>
         <Container>
-          <Row>
-            <Col>
-              <h2>Your Placer &amp; Sacramento County Cleaning Solution</h2>
-              <p>At Woodcreek Carpet Tech we offer honest and complete cleaning experience with none of the &quot;Surprises&quot; you get from the other companies. No hidden charges, no subcontractors, no incomplete cleanings. If you want a quality, honest cleaning experience, give us a call today! We service Placer and Sacramento County including the cities of Auburn, Carmichael, Citrus Heights, Granite Bay, El Dorado Hills, Elk Grove, Fair Oaks, Folsom, Lincoln, Loomis, Newcastle, Rocklin, Roseville, Rancho Cordova and Sacramento. </p>
-              <p>
-                Below we have summarized our services.  If you have any questions or would like to schedule a free estimate, please contact us today!
-              </p>
-              <h2>Our Cleaning &amp; Repair Services Include:</h2>
-              <h3>Residential Carpet Cleaning Services:</h3>
-              <p>
-                Your carpets may not look dirty, however deep in the fibers, there is a lot of nasty stuff hiding.  Over time, carpet collects dust mites, pet dander, spilled drinks, and more. </p>
-              <p>
-                With our professional carpet cleaning, you can rest assured that all that accumulated dirt will be eliminated. Not only will your carpets look and smell great, but your home will be cleaner and healthier for you and your family.  To learn more about our carpet cleaning services please continue your tour of our website.
-              </p>
-              <h3>
-                Commercial Carpet Cleaning Services:
+          <Row className="my-5">
+            <Col xs={12}>
+              <h2>Our Cleaning &amp; Repair Services</h2>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Revitalize Your Home with Professional Residential Carpet Cleaning Services</h3>
+              <p>Looking to breathe new life into your home? Our residential carpet cleaning services are here to help! With our expert team and advanced cleaning techniques, we&apos;ll refresh and rejuvenate your carpets, leaving them looking and feeling brand new.</p>
+              <p>Whether you&apos;re dealing with stubborn stains, deep-seated dirt, or unpleasant odors, our skilled professionals have the knowledge and tools to tackle any carpet cleaning challenge. We prioritize the use of eco-friendly products that are safe for your family and pets.</p>
+              <p>Experience the transformative power of our residential carpet cleaning services and create a cleaner, healthier living environment for you and your loved ones. Contact us today to schedule an appointment and discover the difference we can make in your home.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Elevate Your Business with Professional Commercial Carpet Cleaning Services</h3>
+              <p>First impressions matter when it comes to your business. Ensure a clean and welcoming environment with our comprehensive commercial carpet cleaning services.</p>
+              <p>Our expert team is equipped with the latest techniques and industry-leading equipment to effectively remove dirt, stains, and allergens from your commercial carpets. We understand the unique challenges that come with high-traffic areas and strive to deliver exceptional results.</p>
+              <p>With our tailored cleaning solutions, we can revitalize your carpets, creating a fresh and professional atmosphere for your employees and clients. Trust our reliable commercial carpet cleaning services to enhance the overall appearance and hygiene of your workspace.</p>
+              <p>Ready to elevate your business? Contact us today to schedule an appointment and experience the difference our commercial carpet cleaning services can make for your establishment.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Revive Your Space with Expert Area Rug Cleaning Services</h3>
+              <p>Discover the transformative power of our professional area rug cleaning services. We specialize in restoring the beauty and cleanliness of your cherished area rugs, bringing new life to your space.</p>
+              <p>Our team of experts utilizes advanced techniques and state-of-the-art equipment to effectively remove dirt, stains, and allergens from your area rugs. With our meticulous approach, we ensure that every fiber is thoroughly cleaned and rejuvenated.</p>
+              <p>Whether you have short woven rugs or plush shaggy ones, we have the knowledge and expertise to handle them all. Trust our professional area rug cleaning services to revitalize your rugs and create a fresh and inviting atmosphere in your home or office.</p>
+              <p>Ready to experience the difference? Contact us today to schedule an appointment and give your area rugs the care they deserve.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Transform Your Tiles with Professional Tile & Grout Cleaning Services</h3>
+              <p>Unlock the true beauty of your tiles with our specialized tile and grout cleaning services. Our expert team is dedicated to delivering exceptional results that will leave your floors looking pristine and refreshed.</p>
+              <p>Using advanced techniques and high-quality equipment, we effectively eliminate dirt, grime, and stubborn stains from your tiles and grout lines. Our meticulous approach ensures a thorough cleaning that revitalizes the appearance of your floors.</p>
+              <p>Say goodbye to dull and dingy tiles and hello to a sparkling clean surface that enhances the overall aesthetic of your space. Trust our professional tile and grout cleaning services to bring back the luster and shine to your floors.</p>
+              <p>Ready to rejuvenate your tiles? Contact us today to schedule an appointment and experience the transformative power of our tile and grout cleaning expertise.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Effective Pet Odor & Stain Removal Services: Say Goodbye to Unwanted Pet Accidents</h3>
+              <p>Don&apos;t let pet odors and stains disrupt your home anymore. Our professional pet odor and stain removal services are here to provide a fresh and clean environment for you and your furry companions.</p>
+              <p>With our specialized techniques and eco-friendly products, we effectively eliminate pet-related odors and stains from carpets, upholstery, and other surfaces. Our expert team understands the unique challenges that come with pet accidents and takes a thorough approach to ensure complete removal.</p>
+              <p>Experience the relief of a home free from lingering pet odors and unsightly stains. Trust our reliable pet odor and stain removal services to restore cleanliness and harmony to your living space.</p>
+              <p>Ready to say goodbye to unwanted pet accidents? Contact us today to schedule an appointment and enjoy a fresh, odor-free home once again.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Enhance Protection with SCOTCHGARD<sup>&reg;</sup> Services for Long-Lasting Results</h3>
+              <p>Experience the power of SCOTCHGARD<sup>&reg;</sup> services to safeguard your valuable investments. Our professional team specializes in applying SCOTCHGARD<sup>&reg;</sup> protection, offering long-lasting results for your carpets, upholstery, and more.</p>
+              <p>By choosing our SCOTCHGARD<sup>&reg;</sup> services, you can enjoy enhanced stain resistance and extended lifespan for your furnishings. Our experts utilize advanced techniques to ensure thorough coverage and optimal effectiveness.</p>
+              <p>Don&apos;t let spills and stains ruin the beauty of your belongings. With our reliable SCOTCHGARD<sup>&reg;</sup> services, you can maintain the pristine condition of your items, prolonging their durability and protecting your investment.</p>
+              <p>Ready to enhance protection with SCOTCHGARD<sup>&reg;</sup>? Contact us today for a consultation and discover the benefits of our professional SCOTCHGARD<sup>&reg;</sup> services for your home or business.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Swift Water Damage & Flood Restoration Services for Your Peace of Mind</h3>
+              <p>When water damage strikes, trust our professional water damage and flood restoration services to restore your property promptly and effectively. We understand the urgency of such situations and are here to provide you with peace of mind.</p>
+              <p>Our experienced team utilizes advanced techniques and state-of-the-art equipment to mitigate water damage, extract excess water, and thoroughly dry affected areas. We are equipped to handle various types of water damage, whether from burst pipes, natural disasters, or plumbing issues.</p>
+              <p>With our swift response and efficient restoration process, we minimize further damage and prevent potential mold growth. Rest assured that your property is in capable hands as we work diligently to bring it back to its pre-damage condition.</p>
+              <p>Don&apos;t let water damage disrupt your life. Contact us now for professional water damage and flood restoration services that prioritize your safety and restore your property promptly.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Revive Your Upholstery with Professional Upholstery Cleaning Services
               </h3>
-              <p>
-                When new customers step into your business, their surroundings tell them a lot about the company they are doing business with. Dirty office space leaves lasting impressions.
-              </p>
-              <p>
-                Here at Woodcreek Carpet Tech we use the toughest equipment and the most environmentally friendly cleaners to ensure your carpets always look their best! Give us a call today and leave lasting impressions that will make an enormous impact on your business!
-              </p>
-              <h3>
-
-                Professional Area Rug Cleaning:
-              </h3>
-              <p>
-
-                Most homes today have tile or wood floors because they are easier to clean. These floors are usually covered with luxurious area rugs that should be cleaned too.  From short woven fibers to thick shaggy rugs, we know the best ways to make your area rugs look new again.
-              </p>
-              <h3>
-                Tile & Grout Cleaning:
-              </h3>
-              <p>
-                If unkept, over time mold can grow on your tile and grout, and not even the most diligent cleaning can take care of the problem! Our tile and grout cleaning breaks down soil, dirt, and mold particles that leave your floors looking brand new. Give Woodcreek Carpet Tech a call today for a free estimate.
-              </p>
-              <h3>
-                Pet Odor & Stain Removal Services:
-              </h3>
-              <p>
-                Unfortunately, our &quot;Fur babies&quot; can wreak havoc on our floors, especially the carpets.  Not only do they leave hair and dander behind in the carpets, but pet accidents can be unsightly.
-              </p>
-              <p>
-                At Woodcreek Carpet Tech our non-toxic pet stain and odor removal system sanitizes, breaks down enzymes, and deodorizes your carpets and furniture by scrubbing & steam cleaning the area.
-              </p>
-              <h3>
-                SCOTCHGARD<sup>&reg;</sup> Services:
-              </h3>
-              <p>
-                Scotchgard<sup>&reg;</sup> is meant to protect – think of it as what sealant does for grout! With Scotchgard application on your carpet, you extend the life of your carpet.
-              </p>
-              <p>
-                Do not let stains get sucked into carpet fibers before you can clean them up. Our experts at Woodcreek Carpet Tech are here to preserve your carpets and save you valuable dollars.
-              </p>
-              <h3>
-                Water Damage & Flood Restoration Services:
-              </h3>
-              <p>
-                Whether by natural disaster, busted pipe or water heater failure, YIKES! The house is now covered in water! Now what?   No worry!  Call Woodcreek Carpet Tech.  We will promptly be at your service 24 hours a day! We offer emergency services when you need us the most!
-              </p>
-              <h3>
-                Upholstery Cleaning:
-              </h3>
-              <p>
-                When your furniture upholstery needs revamping, do not rely on store-bought cleaners to brighten up the material. Contact the professionals at Woodcreek Carpet Tech! We know how to deep clean and treat your upholstery the way it deserves!
-                upholstery cleaning services!
-              </p>
-              <h3>
-                Carpet Repair Services:
-              </h3>
-              <p>
-                Moving furniture, casual wear and tear, humidity, improper installation, pets… these are all factors why your carpet may need repair! Whether you need a patch job or stretching, look no further than Woodcreek Carpet Tech to get it done the right way.
-              </p>
-              <h3>
-                RV Interior Cleaning Services:
-              </h3>
-              <p>
-                Spring is here and it is time to get ready for summer vacations and travel! Let Woodcreek Carpet Tech make sure your vehicles are in tip-top shape, cleaned and ready for your family fun. We will get rid of that storage odor and clean your
-                carpet and fabric interiors in your vehicles.
-              </p>
-              <p>
-                We invite you to continue your tour of our website. Be sure to check out what others have to say about their experience with us from our reviews page. If you have any questions or would like to schedule an appointment, please contact Woodcreek Carpet Tech at 916-532-4543.
-              </p>
-              <p>
-                Thank you for your interest in Woodcreek Carpet Tech. We look forward to serving you soon.
-              </p>
+              <p>Discover the transformative power of our professional upholstery cleaning services. From sofas and chairs to cushions and drapes, our expert team specializes in revitalizing and refreshing your upholstery.</p>
+              <p>Using advanced techniques and eco-friendly products, we effectively remove dirt, stains, and allergens from your upholstery, restoring its beauty and extending its lifespan. Our meticulous approach ensures a deep and thorough clean, leaving your furniture looking and feeling like new.</p>
+              <p>Say goodbye to dull and dingy upholstery and hello to a fresh and inviting living space. Trust our professional upholstery cleaning services to enhance the overall appearance and cleanliness of your home.</p>
+              <p>Ready to give your upholstery the care it deserves? Contact us today to schedule an appointment and experience the difference our upholstery cleaning expertise can make.</p>
+            </Col>
+            <Col md={8} className="my-4">
+              <h3>Restore Your Carpets with Expert Carpet Repair Services</h3>
+              <p>Experience the exceptional carpet repair services that bring your carpets back to life. Our skilled team specializes in addressing a wide range of carpet issues, from burns and tears to wrinkles and pet damage.</p>
+              <p>Using advanced techniques and industry-leading equipment, we seamlessly repair damaged areas, ensuring a flawless finish that blends seamlessly with the rest of your carpet. We take pride in our attention to detail and commitment to delivering high-quality results.</p>
+              <p>Don&apos;t let damaged carpets diminish the beauty and functionality of your space. Trust our reliable carpet repair services to restore the integrity and appearance of your carpets, saving you the cost of replacement.</p>
+              <p>Ready to restore your carpets? Contact us today to schedule an appointment and experience the difference our professional carpet repair services can make in your home or business.</p>
+            </Col>
+            <Col md={6} className="my-4">
+              <h3>Revitalize Your RV Interior with Professional Cleaning Services</h3>
+              <p>Experience the transformative power of our professional RV interior cleaning services. From floor to ceiling, our expert team specializes in revitalizing and refreshing your RV living space.</p>
+              <p>Using advanced techniques and eco-friendly products, we effectively remove dirt, stains, and odors from every nook and cranny of your RV. Our meticulous approach ensures a deep and thorough clean, leaving your interior looking and smelling fresh.</p>
+              <p>Say goodbye to dust, allergens, and the wear and tear of travel. Trust our professional RV interior cleaning services to enhance the overall cleanliness and comfort of your home on wheels.</p>
+              <p>Ready to give your RV interior the care it deserves? Contact us today to schedule an appointment and experience the difference our expertise can make in creating a clean and inviting living space for your adventures.</p>
+            </Col>
+            <Col xs={12} className="my-4">
+              <p>Thank you for visiting our website! We encourage you to continue your exploration and discover valuable insights about our services. Don&apos;t forget to visit our reviews page to read about the experiences of our satisfied customers.</p>
+              <p>If you have any questions or would like to schedule an appointment, feel free to reach out to Woodcreek Carpet Tech. You can contact us at 916-532-4543. Our friendly team is ready to assist you.</p>
+              <p>We look forward to serving you and providing you with a top-notch cleaning experience.</p>
             </Col>
           </Row>
         </Container>
