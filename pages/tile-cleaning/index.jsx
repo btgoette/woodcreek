@@ -13,7 +13,7 @@ export default function TileCleaning() {
   return (
     <div>
       <Hero {...hero} />
-      <section classname="py-5">
+      <section className="py-5">
         <Container>
           <Row className="my-5">
             <Col xs={12}>
@@ -51,12 +51,7 @@ export default function TileCleaning() {
                 We are proud to remain of the best floor cleaners in the area. We invite you to check us out on nextdoor.com, yelp and Facebook to see what your neighbors have to say, and you can always trust a job done right when you hire Woodcreek Carpet Tech.
               </p><p>
                 Do not wait until your tiles and grout appear dingy to schedule a deep clean. Contact Woodcreek Carpet Tech today to find out what we can do for your home.
-              </p><p>
-                If you have any questions or would like to schedule an appointment, please contact Woodcreek Carpet Tech at 916-532-4543.
-              </p><p>
-                Thank you for your interest in Woodcreek Carpet Tech. We look forward to serving you soon.
               </p>
-
             </Col>
           </Row>
         </Container>

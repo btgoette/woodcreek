@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Link from "next/link";
 
+import ThankYou from "./ThankYou";
 import Marquee from './Marquee'
 import Copyright from './Copyright'
 import Socials from './Socials'
@@ -12,6 +13,7 @@ export default function Footer() {
   return (
     <>
       <footer>
+        <ThankYou />
         <section className="bg-light py-5">
           <Container className="px-4 py-5">
             <Row className="align-items-center justify-content-center">

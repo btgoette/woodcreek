@@ -13,16 +13,26 @@ export default function Services() {
     <div>
       <Hero {...hero} />
       <section>
-        <Container>
-          <Row className="my-5">
-            <Col xs={12}>
-              <h2>Our Cleaning &amp; Repair Services</h2>
+        <Container className="py-5">
+          <Row className="my-5 align-items-center"><Col xs={12}>
+            <h2>Our Cleaning &amp; Repair Services</h2>
+          </Col>
+            <Col md={{ span: 4, order: 0 }}>
+              <Image className="w-100" src="/images/500x400/residential-living-room-1.png" alt="" />
             </Col>
             <Col md={8} className="my-4">
               <h3>Revitalize Your Home with Professional Residential Carpet Cleaning Services</h3>
               <p>Looking to breathe new life into your home? Our residential carpet cleaning services are here to help! With our expert team and advanced cleaning techniques, we&apos;ll refresh and rejuvenate your carpets, leaving them looking and feeling brand new.</p>
               <p>Whether you&apos;re dealing with stubborn stains, deep-seated dirt, or unpleasant odors, our skilled professionals have the knowledge and tools to tackle any carpet cleaning challenge. We prioritize the use of eco-friendly products that are safe for your family and pets.</p>
               <p>Experience the transformative power of our residential carpet cleaning services and create a cleaner, healthier living environment for you and your loved ones. Contact us today to schedule an appointment and discover the difference we can make in your home.</p>
+            </Col>
+
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 1 }}>
+
+              <Image className="w-100" src="/images/500x400/professional-carpet-cleaning-1.png" alt="" />
+
             </Col>
             <Col md={8} className="my-4">
               <h3>Elevate Your Business with Professional Commercial Carpet Cleaning Services</h3>
@@ -31,12 +41,28 @@ export default function Services() {
               <p>With our tailored cleaning solutions, we can revitalize your carpets, creating a fresh and professional atmosphere for your employees and clients. Trust our reliable commercial carpet cleaning services to enhance the overall appearance and hygiene of your workspace.</p>
               <p>Ready to elevate your business? Contact us today to schedule an appointment and experience the difference our commercial carpet cleaning services can make for your establishment.</p>
             </Col>
+
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 0 }}>
+
+              <Image className="w-100" src="/images/500x400/couch-8.png" alt="" />
+
+            </Col>
             <Col md={8} className="my-4">
               <h3>Revive Your Space with Expert Area Rug Cleaning Services</h3>
               <p>Discover the transformative power of our professional area rug cleaning services. We specialize in restoring the beauty and cleanliness of your cherished area rugs, bringing new life to your space.</p>
               <p>Our team of experts utilizes advanced techniques and state-of-the-art equipment to effectively remove dirt, stains, and allergens from your area rugs. With our meticulous approach, we ensure that every fiber is thoroughly cleaned and rejuvenated.</p>
               <p>Whether you have short woven rugs or plush shaggy ones, we have the knowledge and expertise to handle them all. Trust our professional area rug cleaning services to revitalize your rugs and create a fresh and inviting atmosphere in your home or office.</p>
               <p>Ready to experience the difference? Contact us today to schedule an appointment and give your area rugs the care they deserve.</p>
+            </Col>
+
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 1 }}>
+
+              <Image className="w-100" src="/images/500x400/tile-1.png" alt="" />
+
             </Col>
             <Col md={8} className="my-4">
               <h3>Transform Your Tiles with Professional Tile & Grout Cleaning Services</h3>
@@ -45,12 +71,26 @@ export default function Services() {
               <p>Say goodbye to dull and dingy tiles and hello to a sparkling clean surface that enhances the overall aesthetic of your space. Trust our professional tile and grout cleaning services to bring back the luster and shine to your floors.</p>
               <p>Ready to rejuvenate your tiles? Contact us today to schedule an appointment and experience the transformative power of our tile and grout cleaning expertise.</p>
             </Col>
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 0 }}>
+
+              <Image className="w-100" src="/images/500x400/rug-1.png" alt="" />
+
+            </Col>
             <Col md={8} className="my-4">
               <h3>Effective Pet Odor & Stain Removal Services: Say Goodbye to Unwanted Pet Accidents</h3>
               <p>Don&apos;t let pet odors and stains disrupt your home anymore. Our professional pet odor and stain removal services are here to provide a fresh and clean environment for you and your furry companions.</p>
               <p>With our specialized techniques and eco-friendly products, we effectively eliminate pet-related odors and stains from carpets, upholstery, and other surfaces. Our expert team understands the unique challenges that come with pet accidents and takes a thorough approach to ensure complete removal.</p>
               <p>Experience the relief of a home free from lingering pet odors and unsightly stains. Trust our reliable pet odor and stain removal services to restore cleanliness and harmony to your living space.</p>
               <p>Ready to say goodbye to unwanted pet accidents? Contact us today to schedule an appointment and enjoy a fresh, odor-free home once again.</p>
+            </Col>
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 1 }}>
+
+              <Image className="w-100" src="/images/500x400/scotch-guard-1.png" alt="" />
+
             </Col>
             <Col md={8} className="my-4">
               <h3>Enhance Protection with SCOTCHGARD<sup>&reg;</sup> Services for Long-Lasting Results</h3>
@@ -59,12 +99,26 @@ export default function Services() {
               <p>Don&apos;t let spills and stains ruin the beauty of your belongings. With our reliable SCOTCHGARD<sup>&reg;</sup> services, you can maintain the pristine condition of your items, prolonging their durability and protecting your investment.</p>
               <p>Ready to enhance protection with SCOTCHGARD<sup>&reg;</sup>? Contact us today for a consultation and discover the benefits of our professional SCOTCHGARD<sup>&reg;</sup> services for your home or business.</p>
             </Col>
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 0 }}>
+
+              <Image className="w-100" src="/images/500x400/flood-damage-1.png" alt="" />
+
+            </Col>
             <Col md={8} className="my-4">
               <h3>Swift Water Damage & Flood Restoration Services for Your Peace of Mind</h3>
               <p>When water damage strikes, trust our professional water damage and flood restoration services to restore your property promptly and effectively. We understand the urgency of such situations and are here to provide you with peace of mind.</p>
               <p>Our experienced team utilizes advanced techniques and state-of-the-art equipment to mitigate water damage, extract excess water, and thoroughly dry affected areas. We are equipped to handle various types of water damage, whether from burst pipes, natural disasters, or plumbing issues.</p>
               <p>With our swift response and efficient restoration process, we minimize further damage and prevent potential mold growth. Rest assured that your property is in capable hands as we work diligently to bring it back to its pre-damage condition.</p>
               <p>Don&apos;t let water damage disrupt your life. Contact us now for professional water damage and flood restoration services that prioritize your safety and restore your property promptly.</p>
+            </Col>
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 1 }}>
+
+              <Image className="w-100" src="/images/500x400/upholstery-cleaning.png" alt="" />
+
             </Col>
             <Col md={8} className="my-4">
               <h3>Revive Your Upholstery with Professional Upholstery Cleaning Services
@@ -74,6 +128,13 @@ export default function Services() {
               <p>Say goodbye to dull and dingy upholstery and hello to a fresh and inviting living space. Trust our professional upholstery cleaning services to enhance the overall appearance and cleanliness of your home.</p>
               <p>Ready to give your upholstery the care it deserves? Contact us today to schedule an appointment and experience the difference our upholstery cleaning expertise can make.</p>
             </Col>
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 0 }}>
+
+              <Image className="w-100" src="/images/500x400/carpet-fix-1.png" alt="" />
+
+            </Col>
             <Col md={8} className="my-4">
               <h3>Restore Your Carpets with Expert Carpet Repair Services</h3>
               <p>Experience the exceptional carpet repair services that bring your carpets back to life. Our skilled team specializes in addressing a wide range of carpet issues, from burns and tears to wrinkles and pet damage.</p>
@@ -81,17 +142,19 @@ export default function Services() {
               <p>Don&apos;t let damaged carpets diminish the beauty and functionality of your space. Trust our reliable carpet repair services to restore the integrity and appearance of your carpets, saving you the cost of replacement.</p>
               <p>Ready to restore your carpets? Contact us today to schedule an appointment and experience the difference our professional carpet repair services can make in your home or business.</p>
             </Col>
+          </Row>
+          <Row className="my-5 align-items-center">
+            <Col md={{ span: 4, order: 1 }}>
+
+              <Image className="w-100" src="/images/500x400/rv-upholstry-1.png" alt="" />
+
+            </Col>
             <Col md={6} className="my-4">
               <h3>Revitalize Your RV Interior with Professional Cleaning Services</h3>
               <p>Experience the transformative power of our professional RV interior cleaning services. From floor to ceiling, our expert team specializes in revitalizing and refreshing your RV living space.</p>
               <p>Using advanced techniques and eco-friendly products, we effectively remove dirt, stains, and odors from every nook and cranny of your RV. Our meticulous approach ensures a deep and thorough clean, leaving your interior looking and smelling fresh.</p>
               <p>Say goodbye to dust, allergens, and the wear and tear of travel. Trust our professional RV interior cleaning services to enhance the overall cleanliness and comfort of your home on wheels.</p>
               <p>Ready to give your RV interior the care it deserves? Contact us today to schedule an appointment and experience the difference our expertise can make in creating a clean and inviting living space for your adventures.</p>
-            </Col>
-            <Col xs={12} className="my-4">
-              <p>Thank you for visiting our website! We encourage you to continue your exploration and discover valuable insights about our services. Don&apos;t forget to visit our reviews page to read about the experiences of our satisfied customers.</p>
-              <p>If you have any questions or would like to schedule an appointment, feel free to reach out to Woodcreek Carpet Tech. You can contact us at 916-532-4543. Our friendly team is ready to assist you.</p>
-              <p>We look forward to serving you and providing you with a top-notch cleaning experience.</p>
             </Col>
           </Row>
         </Container>

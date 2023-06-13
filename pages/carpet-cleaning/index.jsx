@@ -13,55 +13,66 @@ export default function CarpetCleaning() {
   return (
     <div>
       <Hero {...hero} />
-      <section classname="py-5">
-        <Container>
-          <Row className="my-5">
+      <section>
+        <Container className="py-5">
+          <Row className="my-5 align-items-center">
             <Col xs={12}>
-              <h2>Professional Tile Cleaning Services: Revive and Restore Your Tiles</h2>
+              <h2>
+                Easily Eliminate Tough Stains with Professional Carpet Cleaning Services
+              </h2>
             </Col>
-            <Col xs={12}>
+            <Col md={{ span: 4, order: 0 }}>
+              <Image className="w-100" src="/images/500x400/coffee-spill-1.png" alt="" />
+            </Col>
+            <Col md={8}>
               <p>
-                Tile and stone in areas such as the like kitchens, foyers, and family rooms are definitely heavily trafficked space where dirt and grime accumulate over time and requires maintenance, just like your carpets. If left untreated, grout stains and buildup will create an area for bacteria to develop and create unsightly discoloration.
-              </p><p>
-                Cleaning bathroom grout is not as easy as taking a mop to it. If you want a real level of cleanliness, you need to have Woodcreek Carpet Tech floor tiles to deep clean into your grout and remove all traces of dirt and bacteria.
-              </p>
-            </Col>
-            <Col>
-              <h3>
-                Here at Woodcreek Carpet Tech we offer a comprehensive tile and grout cleaning service that includes:
-              </h3><p>
-                Pre-treating the tile & grout areas with a heavy-duty grout cleaner.
-              </p><p>
-                Hand-scrubbing the area to break down soil and residue.
-              </p><p>
-                Pressure–cleaning the tiles & grout.
+                Say goodbye to stubborn stains with the help of Woodcreek Carpet Tech&apos;s professional carpet cleaning services. Whether it&apos;s a Monday morning coffee spill or other challenging stains like food, pet accidents, dirt-tracked shoes, or even red wine and mustard, our expert team is here to assist you.
               </p>
               <p>
-                After cleaning, we recommend having your clean tile sealed. Hard surfaces that are unsealed are much like a sponge and will absorb oil, food, or beverage spills, resulting in permanent staining. Proper sealing can protect your flooring from permanent damage by creating an invisible barrier over the tile and grout.
+                Don&apos;t let those impossible stains ruin the appearance of your carpets. With our advanced cleaning techniques and powerful cleaners, we can effectively remove even the toughest stains, leaving your carpets looking their absolute best.
+              </p>
+              <p>
+                Trust Woodcreek Carpet Tech to handle all your stain removal needs. Say goodbye to worries and hello to beautifully clean carpets. Contact us today to schedule a professional carpet cleaning service and let us restore the pristine condition of your carpets.
               </p>
             </Col>
+          </Row>
+          <Row>
             <Col>
               <h3>
-                Woodcreek Carpet Tech-Your Tile & Grout Cleaning Solution
+                Woodcreek Carpet Tech: Your Trusted Carpet Cleaning Solution in Roseville, CA!
               </h3>
               <p>
-                When you need tile and grout cleaning in the Placer & Sacramento County area, you have come to the right place.
-                Our experts will make sure they fully rejuvenate your tile and grout. We deliver a level of cleanliness that cannot be achieved by at-home cleaning products.
-              </p><p>
-                We are proud to remain of the best floor cleaners in the area. We invite you to check us out on nextdoor.com, yelp and Facebook to see what your neighbors have to say, and you can always trust a job done right when you hire Woodcreek Carpet Tech.
-              </p><p>
-                Do not wait until your tiles and grout appear dingy to schedule a deep clean. Contact Woodcreek Carpet Tech today to find out what we can do for your home.
-              </p><p>
-                If you have any questions or would like to schedule an appointment, please contact Woodcreek Carpet Tech at 916-532-4543.
-              </p><p>
-                Thank you for your interest in Woodcreek Carpet Tech. We look forward to serving you soon.
+                Looking for a reliable and professional carpet cleaning company in Roseville, CA? Look no further than Woodcreek Carpet Tech! With years of experience and a dedication to excellence, we are the go-to experts for transforming your carpets into pristine works of art.
               </p>
-
+              <p>
+                Our highly skilled technicians utilize state-of-the-art equipment and their expertise to deliver unparalleled results. We understand that your carpets are not just floor coverings but valuable investments that deserve the highest level of care. That&apos;s why we use eco-friendly and non-toxic cleaning solutions to effectively remove deep-seated dirt, stubborn stains, and unpleasant odors, restoring your carpets to their original vibrancy.
+              </p>
+              <p>
+                Whether you have a residential or commercial space, our tailored cleaning approach ensures a thorough and meticulous service. Say goodbye to allergens and hello to fresh, clean carpets that enhance the overall aesthetics of your environment.
+              </p>
+              <p>
+                At Woodcreek Carpet Tech, we take pride in our professionalism, reliability, and commitment to customer satisfaction. You can trust us to deliver exceptional results and make your carpets look and feel their best. Choose Woodcreek Carpet Tech for all your carpet cleaning needs in Roseville, CA. Contact us today to schedule an appointment and experience the difference we can make!
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h3>
+                Choose Woodcreek Carpet Tech for Exceptional Carpet Cleaning
+              </h3>
+              <p>
+                Looking for the best carpet cleaning service? Look no further than Woodcreek Carpet Tech! We go above and beyond to exceed your expectations and deliver outstanding results. Here&apos;s why you should choose us:
+              </p>
+              <ul>
+                <li>Experienced and Certified Technicians: Our team of certified technicians is highly trained and brings years of experience to every job. You can trust their expertise to handle your carpets with care and precision.</li>
+                <li>Powerful Truck-Mounted Machines: We utilize the most powerful truck-mounted machines available, ensuring deep cleaning and maximum extraction of dirt, stains, and allergens from your carpets. Our advanced equipment guarantees exceptional results.</li><li>Latest Cleaning Solutions: We stay up-to-date with the latest advancements in the industry and use cutting-edge cleaning solutions to tackle even the toughest stains and odors. Rest assured that we will leave your carpets looking and smelling fresh.</li><li>Uncompromising Commitment to Cleanliness: At Woodcreek Carpet Tech, we prioritize cleanliness, presentation, and the health of your home. We go the extra mile to ensure a thorough cleaning that leaves your carpets not only visually appealing but also hygienic for you and your family.</li>
+              </ul>
+              <p>Trust Woodcreek Carpet Tech for all your carpet cleaning needs. Experience our dedication to exceeding your standards and providing you with a clean, presentable, and healthy home. Contact us today to schedule an appointment and discover the difference we can make!</p>
             </Col>
           </Row>
         </Container>
       </section>
-      <FAQ />
+      {/* <FAQ /> */}
     </div>
   );
 }
