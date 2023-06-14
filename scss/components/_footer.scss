@@ -1,0 +1,47 @@
+footer {
+  .logo {
+    img {
+      height: 125px;
+    }
+    margin-bottom: 1rem;
+  }
+
+  .socials {
+    .btn-outline-dark {
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+
+      .dark {
+        display: block;
+      }
+      .light {
+        display: none;
+      }
+      &:hover {
+        .dark {
+          display: none;
+        }
+        .light {
+          display: block;
+        }
+      }
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        border-color: $primary;
+      }
+
+      &.nextdoor {
+        img {
+          width: 1rem;
+          margin-right: 1px;
+        }
+      }
+    }
+  }
+}

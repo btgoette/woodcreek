@@ -1,0 +1,83 @@
+nav {
+  font-family: $nav-font-family;
+
+  .logo {
+    img {
+      height: 70px;
+    }
+  }
+
+  &.navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: $black;
+        font-weight: 400;
+        padding: 0 1.5rem;
+      }
+    }
+  }
+
+  button {
+    margin: 1rem 0;
+  }
+
+  .navbar-toggler {
+    border-color: $grey;
+
+    .navbar-toggler-icon {
+      border-color: $dark;
+    }
+  }
+
+  .show > .nav-link,
+  .nav-link {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.25s;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $primary !important;
+    }
+  }
+  .dropdown-menu {
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 2px;
+    border-color: transparent transparent transparent $white;
+    padding: 0 0;
+    overflow: hidden;
+    .dropdown-item {
+      font-weight: 600;
+      color: $white;
+      &:hover {
+        background-color: transparent;
+        color: $secondary;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      background-color: $white;
+      border-radius: 5px;
+      border-width: 1px;
+      border-color: $primary;
+      a.dropdown-item {
+        color: $primary;
+        &:hover {
+          color: $primary;
+          background-color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+.offcanvas {
+  .offcanvas-header {
+    background-color: $primary;
+    color: $white;
+  }
+  .offcanvas-body {
+    color: $dark;
+  }
+}
