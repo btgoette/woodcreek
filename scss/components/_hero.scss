@@ -1,0 +1,63 @@
+.hero {
+    background-color: $dark;
+    padding: 4rem 0;
+    &.home {
+        background-image: url("../../public/images/hero/living-room-with-rug.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+        @media only screen and (min-width: 800px) {
+            background-image: url("../../public/images/hero-md/living-room-with-rug.png");
+        }
+    }
+    &.services {
+        background-image: url("../../public/images/hero/bedroom-6.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+        @media only screen and (min-width: 800px) {
+            background-image: url("../../public/images/hero-md/bedroom-6.png");
+        }
+    }
+    &.carpet-cleaning {
+        background-image: url("../../public/images/hero/bedroom-with-couch.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+        @media only screen and (min-width: 800px) {
+            background-image: url("../../public/images/hero-md/bedroom-with-couch.png");
+        }
+    }
+    &.tile-cleaning {
+        background-image: url("../../public/images/hero/kitchen-tile-1.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+        @media only screen and (min-width: 800px) {
+            background-image: url("../../public/images/hero-md/kitchen-tile-1.png");
+        }
+    }
+    &.reviews {
+        background-image: url("../../public/images/hero/living-room-2.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+        @media only screen and (min-width: 800px) {
+            background-image: url("../../public/images/hero-md/living-room-2.png");
+        }
+    }
+    &.contact {
+        background-image: url("../../public/images/hero/living-room-1.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+        @media only screen and (min-width: 800px) {
+            background-image: url("../../public/images/hero-md/living-room-1.png");
+        }
+    }
+
+    h1 {
+        color: $white;
+        text-shadow: 2px 2px 1px $dark;
+    }
+}

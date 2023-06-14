@@ -18,7 +18,7 @@ export default function Socials() {
     function renderFacebook() {
         if (socials.facebook !== undefined) {
             return (
-                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.facebook}>
+                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.facebook} target="_blank">
                     <i className="fab fa-facebook-f"></i>
                 </Link>
             )
@@ -29,7 +29,7 @@ export default function Socials() {
     function renderInstagram() {
         if (socials.instagram !== undefined) {
             return (
-                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.instagram}>
+                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.instagram} target="_blank">
                     <i className="fab fa-instagram"></i>
                 </Link>
             )
@@ -40,7 +40,7 @@ export default function Socials() {
     function renderLinkedIn() {
         if (socials.linkedin) {
             return (
-                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.instagram}>
+                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.instagram} target="_blank">
                     <i className="fab fa-linkedin-in"></i>
                 </Link>
             )
@@ -51,8 +51,9 @@ export default function Socials() {
     function renderNextdoor() {
         if (socials.nextdoor) {
             return (
-                <Link className="nextdoor btn btn-outline-dark btn-floating m-1" href={socials.nextdoor}>
-                    <Image src="images/footer/nextdoor-dark.webp" alt="nextdoor" />
+                <Link className="nextdoor btn btn-outline-dark btn-floating m-1" href={socials.nextdoor} target="_blank">
+                    <Image className="dark" src="/images/footer/nextdoor-dark.webp" alt="nextdoor" />
+                    <Image className="light" src="/images/footer/nextdoor-light.webp" alt="nextdoor" />
                 </Link>
             )
         }
@@ -62,7 +63,7 @@ export default function Socials() {
     function renderTwitter() {
         if (socials.twitter !== undefined) {
             return (
-                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.twitter}>
+                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.twitter} target="_blank">
                     <i className="fab fa-twitter"></i>
                 </Link>
             )
@@ -74,8 +75,7 @@ export default function Socials() {
     function renderYelp() {
         if (socials.yelp !== undefined) {
             return (
-                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.yelp}>
-
+                <Link className="btn btn-outline-dark btn-floating m-1" href={socials.yelp} target="_blank">
                     <i className="fab fa-yelp"></i>
                 </Link>
             )

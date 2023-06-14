@@ -1,23 +1,45 @@
+import { Container, Row, Col, Image } from 'react-bootstrap'
+
 import Head from "components/Head";
-import Carousels from "components/Carousels";
-import Section from "components/Section";
+import Hero from "components/Hero";
 import Cards from "components/Cards";
 
+
 let head = {
-  title: "Jeff Smith Construction JSCS Inc.",
+  title: "Woodcreek Carpet Tech",
   description:
-    "Commercial General Contractor Sacramento CA.  Jeff Smith Construction - Commercial Construction, Tenant Improvement, Commercial Design & Build. Restaurants, Offices, Retail Commercial Construction. Commercial Construction Rocklin Roseville Folsom Auburn",
-  image: "https://jeffsmithconstruction.com/images/logos/jscs-gradient.webp",
+    "Professional carpet cleaning, rug cleaning, tile & grout cleaning, carpet installation, upholstery cleaning, RV cleaning, and more. Exceptional results, eco-friendly methods. Enhance your space with our comprehensive services. Call now!",
+  image: "https://woodcreekcarpettech.com/images/logos/logo.webp",
   imageType: "image/webp",
   robots: "INDEX, FOLLOW",
 };
+
+let hero = {
+  background: "home",
+  title: "Woodcreek Carpet Tech"
+}
 
 export default function Home() {
   return (
     <div>
       <Head {...head} />
-      <Carousels />
-      <Cards />
+      <Hero {...hero} />
+      <section className="py-5">
+        <Container className="p-5">
+          <Row className="text-center">
+            <Col md={{ span: 8, offset: 2 }}>
+              <h2>Your Placer &amp; Sacramento County Cleaning Solution</h2>
+              <p>Welcome to Woodcreek Carpet Tech, where we provide a transparent and thorough cleaning service that eliminates any unexpected surprises commonly encountered with other companies. Our commitment is to offer a high-quality and trustworthy cleaning experience. Contact us today for a reliable service you can count on! </p>
+              <p>We proudly serve Placer and Sacramento County, including Auburn, Carmichael, Citrus Heights, Granite Bay, El Dorado Hills, Elk Grove, Fair Oaks, Folsom, Lincoln, Loomis, Newcastle, Rocklin, Roseville, Rancho Cordova, and Sacramento.</p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="py-5">
+        <Container className="p-5">
+          <Cards />
+        </Container>
+      </section>
     </div>
   );
 }

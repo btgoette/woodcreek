@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Link from "next/link";
 
+import ThankYou from "./ThankYou";
 import Marquee from './Marquee'
 import Copyright from './Copyright'
 import Socials from './Socials'
@@ -12,6 +13,7 @@ export default function Footer() {
   return (
     <>
       <footer>
+        <ThankYou />
         <section className="bg-light py-5">
           <Container className="px-4 py-5">
             <Row className="align-items-center justify-content-center">
@@ -27,9 +29,11 @@ export default function Footer() {
               <Col md="4">
                 <Contact />
                 <div>
-                  <figure>
-                    <Image src="images/footer/rchlogo.png" alt="Roseville Chamber of Commerce" />
-                  </figure>
+                  <Link href="https://www.rosevillechamber.com/" target="_blank">
+                    <figure>
+                      <Image src="/images/footer/rchlogo.png" alt="Member of the Roseville Chamber of Commerce" title="Member of the Roseville Chamber of Commerce" />
+                    </figure>
+                  </Link>
                 </div>
               </Col>
               <Col md="4">
