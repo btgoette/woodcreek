@@ -2,7 +2,6 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 import Head from 'components/Head';
 import Hero from 'components/Hero';
-import FAQ from "components/FAQ";
 
 let hero = {
   background: "carpet-cleaning",
@@ -21,10 +20,10 @@ export default function CarpetCleaning() {
                 Easily Eliminate Tough Stains with Professional Carpet Cleaning Services
               </h2>
             </Col>
-            <Col md={{ span: 4, order: 0 }}>
+            <Col lg={{ span: 6, order: 0 }} xl={4}>
               <Image className="w-100" src="/images/500x400/coffee-spill-1.png" alt="" />
             </Col>
-            <Col md={8}>
+            <Col lg={6} xl={8}>
               <p>
                 Say goodbye to stubborn stains with the help of Woodcreek Carpet Tech&apos;s professional carpet cleaning services. Whether it&apos;s a Monday morning coffee spill or other challenging stains like food, pet accidents, dirt-tracked shoes, or even red wine and mustard, our expert team is here to assist you.
               </p>

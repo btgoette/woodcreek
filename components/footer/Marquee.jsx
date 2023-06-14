@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FooterMarquee() {
     return (
         <section className="bg-secondary text-white">
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col>
                         <Marquee speed="40">

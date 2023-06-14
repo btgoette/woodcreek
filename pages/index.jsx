@@ -25,8 +25,8 @@ export default function Home() {
       <Head {...head} />
       <Hero {...hero} />
       <section className="py-5">
-        <Container>
-          <Row className="my-5 text-center">
+        <Container className="p-5">
+          <Row className="text-center">
             <Col md={{ span: 8, offset: 2 }}>
               <h2>Your Placer &amp; Sacramento County Cleaning Solution</h2>
               <p>Welcome to Woodcreek Carpet Tech, where we provide a transparent and thorough cleaning service that eliminates any unexpected surprises commonly encountered with other companies. Our commitment is to offer a high-quality and trustworthy cleaning experience. Contact us today for a reliable service you can count on! </p>
@@ -35,7 +35,11 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <Cards />
+      <section className="py-5">
+        <Container className="p-5">
+          <Cards />
+        </Container>
+      </section>
     </div>
   );
 }

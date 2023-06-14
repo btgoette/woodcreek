@@ -2,7 +2,6 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 import Head from 'components/Head';
 import Hero from 'components/Hero';
-import FAQ from 'components/FAQ';
 
 let hero = {
   background: 'tile-cleaning',

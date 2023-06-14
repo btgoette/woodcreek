@@ -1,6 +1,9 @@
 import React from "react";
 import App from "next/app";
 import { SSRProvider } from "@react-aria/ssr";
+import AOS from "aos";
+import { addBackToTop } from "vanilla-back-to-top";
+import "aos/dist/aos.css";
 
 // CSS Libraries
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,6 +24,16 @@ export default class MyApp extends App {
     }
 
     return { pageProps };
+  }
+
+  componentDidMount() {
+    AOS.init();
+    addBackToTop({
+      diameter: 56,
+      backgroundColor: "rgb(128, 0, 0)",
+      textColor: "#fff",
+    });
+    window.scrollTo(0, 0);
   }
 
   render() {
