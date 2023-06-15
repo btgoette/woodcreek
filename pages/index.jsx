@@ -27,7 +27,7 @@ export default function Home() {
       <section className="py-5">
         <Container className="p-5">
           <Row className="text-center">
-            <Col md={{ span: 8, offset: 2 }}>
+            <Col>
               <h2>Your Placer &amp; Sacramento County Cleaning Solution</h2>
               <p>Welcome to Woodcreek Carpet Tech, where we provide a transparent and thorough cleaning service that eliminates any unexpected surprises commonly encountered with other companies. Our commitment is to offer a high-quality and trustworthy cleaning experience. Contact us today for a reliable service you can count on! </p>
               <p>We proudly serve Placer and Sacramento County, including Auburn, Carmichael, Citrus Heights, Granite Bay, El Dorado Hills, Elk Grove, Fair Oaks, Folsom, Lincoln, Loomis, Newcastle, Rocklin, Roseville, Rancho Cordova, and Sacramento.</p>

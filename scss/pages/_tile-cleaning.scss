@@ -1,0 +1,38 @@
+.tiles {
+    .tile {
+        .tile-block {
+            width: 100%;
+            aspect-ratio: 1/1;
+            background-color: #ff777733;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            @media screen and (min-width: $xl) {
+                padding: 1rem;
+            }
+            div {
+                cursor: pointer;
+                p {
+                    margin-bottom: 0;
+                }
+                .tile-title {
+                    display: block;
+                    padding: 1.5rem;
+                }
+                .tile-content {
+                    display: none;
+                }
+                &:hover {
+                    .tile-title {
+                        display: none;
+                    }
+                    .tile-content {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

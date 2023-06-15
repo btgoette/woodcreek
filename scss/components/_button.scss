@@ -3,6 +3,7 @@
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
+  border-radius: 0;
 
   &.btn-primary {
     background: $primary;
@@ -27,6 +28,5 @@
     &:hover {
       background: $dark;
     }
-  }  
-
+  }
 }
