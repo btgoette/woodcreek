@@ -18,13 +18,13 @@
           font-weight: 700;
           font-size:1rem;
         }
-        @media screen and (min-width: 577px) {
+        @media screen and (min-width: $sm) {
           h2 {
             font-size: 2.25rem;
             font-weight: 700;
           }
         }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: $lg) {
           h2 {
             font-size: 2.5rem;
             font-weight: 700;

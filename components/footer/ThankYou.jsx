@@ -7,11 +7,11 @@ export default function ThankYou() {
             <Container>
                 <Row className="my-5 align-items-center">
                     <Col className="text-center">
-                        <h2 className="my-1 lh-base">Thank you for visiting our website! </h2>
-                        <p className="fs-4 lh-lg">
+                        <h2 className="mt-0">Thank you for visiting our website! </h2>
+                        <h3 className="fw-normal">
                             Explore <strong><Link href="/services/">OUR SERVICES</Link></strong> and check out <strong><Link href="/reviews/">OUR REVIEWS</Link></strong> page to hear from our satisfied customers.<br />
                             For any questions or appointments, contact Woodcreek Carpet Tech at <strong><Link href="tel:9165324543">916-532-4543</Link></strong>.
-                        </p>
+                        </h3>
                     </Col>
                 </Row>
             </Container>

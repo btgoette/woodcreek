@@ -32,16 +32,19 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center;
-      &:hover {
-        border-color: $primary;
-      }
-
       &.nextdoor {
         img {
           width: 1rem;
           margin-right: 1px;
         }
       }
+    }
+  }
+  .contact,
+  .menu {
+    font-size: 1.25rem;
+    a:hover {
+      color: $primary;
     }
   }
 }

@@ -31,7 +31,7 @@ let nav = [
 export default function Menu() {
     return (
         <div className="menu">
-            <div className="links text-center text-md-start mb-2">
+            <div className="links mb-2">
                 {nav.map(({ name, url }, i) => (
                     <div key={i}>
                         <Link href={url} title={name}>

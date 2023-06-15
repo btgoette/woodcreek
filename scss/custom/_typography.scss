@@ -68,17 +68,18 @@ h6 {
   letter-spacing: 1px;
 }
 h1 {
-  font-size: 3 * $scale * 1rem;
-  line-height: 3 * $leading;
+  font-size: 3.5 * $scale * 1rem;
+  line-height: 3.5 * $leading;
   margin-top: 2 * $leading;
 }
 h2 {
-  font-size: 2 * $scale * 1rem;
-  line-height: 2 * $leading;
+  font-size: 2.5 * $scale * 1rem;
+  line-height: 2.5 * $leading;
   margin-top: 2 * $leading;
 }
 h3 {
-  font-size: 1 * $scale * 1rem;
+  font-size: 1.5 * $scale * 1rem;
+  line-height: 1.5 * $leading;
 }
 h4 {
   font-size: math.div($scale, 2) * 1rem;
