@@ -1,12 +1,14 @@
 .hero {
     background-color: $dark;
+    background-blend-mode: overlay;
     padding: 4rem 0;
     &.home {
         background-image: url("../../public/images/hero/living-room-with-rug.png");
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-size: cover;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (min-width: $lg) {
             background-image: url("../../public/images/hero-md/living-room-with-rug.png");
         }
     }
@@ -14,8 +16,9 @@
         background-image: url("../../public/images/hero/bedroom-6.png");
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-size: cover;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (min-width: $lg) {
             background-image: url("../../public/images/hero-md/bedroom-6.png");
         }
     }
@@ -23,8 +26,9 @@
         background-image: url("../../public/images/hero/bedroom-with-couch.png");
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-size: cover;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (min-width: $lg) {
             background-image: url("../../public/images/hero-md/bedroom-with-couch.png");
         }
     }
@@ -32,8 +36,9 @@
         background-image: url("../../public/images/hero/kitchen-tile-1.png");
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-size: cover;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (min-width: $lg) {
             background-image: url("../../public/images/hero-md/kitchen-tile-1.png");
         }
     }
@@ -41,8 +46,9 @@
         background-image: url("../../public/images/hero/living-room-2.png");
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-size: cover;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (min-width: $lg) {
             background-image: url("../../public/images/hero-md/living-room-2.png");
         }
     }
@@ -50,8 +56,9 @@
         background-image: url("../../public/images/hero/living-room-1.png");
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-size: cover;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (min-width: $lg) {
             background-image: url("../../public/images/hero-md/living-room-1.png");
         }
     }

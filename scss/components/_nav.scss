@@ -1,5 +1,6 @@
 nav {
   font-family: $nav-font-family;
+  background-color: #f9f9f9;
 
   .logo {
     img {
@@ -31,7 +32,7 @@ nav {
 
   .show > .nav-link,
   .nav-link {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.5rem;
     text-decoration: none;
     transition: 0.25s;

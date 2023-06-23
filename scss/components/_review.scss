@@ -1,6 +1,5 @@
 .review {
     display: flex;
-    max-height: 430vh;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -31,5 +30,18 @@
                 color: $primary;
             }
         }
+    }
+
+    @media only screen and (min-width: $md) {
+        max-height: 7200px;
+    }
+    @media only screen and (min-width: $lg) {
+        max-height: 5500px;
+    }
+    @media only screen and (min-width: $xl) {
+        max-height: 4500px;
+    }
+    @media only screen and (min-width: $xxl) {
+        max-height: 4000px;
     }
 }

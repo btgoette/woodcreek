@@ -17,8 +17,8 @@ export default function Footer() {
         <section className="bg-light py-5">
           <Container className="px-4 py-5">
             <Row className="align-items-center justify-content-center">
-              <Col md="4">
-                <div className="text-center">
+              <Col lg="4" className=" text-center mb-4">
+                <div>
                   <Link href="/">
                     <Logo />
                   </Link>
@@ -26,7 +26,7 @@ export default function Footer() {
                   <Socials />
                 </div>
               </Col>
-              <Col md="4">
+              <Col lg="4" className="text-center text-lg-start mb-4">
                 <Contact />
                 <div>
                   <Link href="https://www.rosevillechamber.com/" target="_blank">
@@ -36,7 +36,7 @@ export default function Footer() {
                   </Link>
                 </div>
               </Col>
-              <Col md="4">
+              <Col lg="4" className="text-center text-lg-start mb-4">
                 <Menu />
               </Col>
             </Row>

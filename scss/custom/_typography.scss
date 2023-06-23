@@ -79,6 +79,7 @@ h2 {
 }
 h3 {
   font-size: 1 * $scale * 1rem;
+  line-height: 1 * $leading;
 }
 h4 {
   font-size: math.div($scale, 2) * 1rem;
