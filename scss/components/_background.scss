@@ -1,9 +1,17 @@
+body {
+  background-color: #f9f9f9;
+}
+
 .bg-primary {
   background-color: $primary !important;
   color: $white;
   a {
     color: $white;
   }
+}
+
+.bg-grey {
+  background-color: #c7c7c7;
 }
 
 .bg-white {
@@ -30,6 +38,14 @@
   }
 }
 
+.bg-kitchen-tile {
+  background-color: #666;
+  background-image: url(../../public/images/backgrounds/kitchen-tile-1.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: $white;
+}
+
 .bg-tile {
   color: $white;
   a {
@@ -38,7 +54,7 @@
       text-decoration: underline;
     }
   }
-background-color: $black;
+  background-color: $black;
   --s: 200px; /* control the size */
 
   --_g: #b98181 25%, #9f8484 0 50%, #0000 0;
