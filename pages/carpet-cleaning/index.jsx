@@ -21,7 +21,9 @@ export default function CarpetCleaning() {
               </h2>
             </Col>
             <Col lg={{ span: 6, order: 0 }} xl={4}>
-              <Image className="w-100" src="/images/500x400/coffee-spill-1.png" alt="" />
+              <figure className="mb-xl-0">
+              <Image className="w-100" src="/images/500x400/coffee-spill-1.png" alt="coffee spilled on carpet" />
+            </figure>
             </Col>
             <Col lg={6} xl={8}>
               <p>
@@ -38,7 +40,7 @@ export default function CarpetCleaning() {
           <Row>
             <Col>
               <h3>
-                Woodcreek Carpet Tech: Your Trusted Carpet Cleaning Solution in Roseville, CA!
+                Your Trusted Carpet Cleaning Solution in Roseville, CA!
               </h3>
               <p>
                 Looking for a reliable and professional carpet cleaning company in Roseville, CA? Look no further than Woodcreek Carpet Tech! With years of experience and a dedication to excellence, we are the go-to experts for transforming your carpets into pristine works of art.
