@@ -233,7 +233,7 @@ export default function Review() {
     return (
         <div className="review">
             {reviews.map(({ name, location, date, url, message }, i) => (
-                <Col md={4} key={i} className="p-1">
+                <Col md={6} lg={4} key={i} className="p-1">
                     <div className="review-card p-5">
                         <p className="review-header">
                             <span className="review-name">{name}</span><br />
