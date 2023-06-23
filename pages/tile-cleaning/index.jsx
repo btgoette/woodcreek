@@ -15,9 +15,18 @@ export default function TileCleaning() {
       <Hero {...hero} />
       <section className="py-5">
         <Container className="p-5">
-          <Row>
+          <Row className="align-items-center">
             <Col>
               <h2>Professional Tile and Grout Cleaning Services for Pristine Floors</h2>
+            </Col>
+          </Row>
+          <Row className="align-items-center">
+            <Col xl={{ span: 4, order: 1 }}>
+              <figure className="mb-1 mb-xl-0">
+                <Image className="w-100" src="/images/500x400/kitchen-tile-4.png" alt="Professional Tile and Grout Cleaning Services for Pristine Floors" />
+              </figure>
+            </Col>
+            <Col xl={{ span: 8, order: 0 }}>
               <p>
                 Tile and stone surfaces in high-traffic areas like kitchens, foyers, and family rooms require regular maintenance to combat the accumulation of dirt and grime. Neglected grout can become stained and filled with buildup, providing a breeding ground for bacteria and resulting in unsightly discoloration.
               </p>
@@ -34,35 +43,34 @@ export default function TileCleaning() {
           </Row>
         </Container>
       </section>
-      <section className="py-5">
+      <section className="py-5 bg-kitchen-tile">
         <Container className="p-5">
           <Row className="align-items-center">
             <Col>
-              <h3>
-                Woodcreek Carpet Tech: Your Trusted Source for Tile and Grout Cleaning
-              </h3>
-              <p>
+              <h2 className="mb-1">
+                Your Trusted Source for Tile and Grout Cleaning
+              </h2>
+              <h3 className="mt-0">
                 Discover the comprehensive tile and grout cleaning service offered by Woodcreek Carpet Tech. Our professional service includes the following steps:
-              </p>
+              </h3>
             </Col>
           </Row>
           <FourBlockSection />
-          <Row>
-            <Col>
-              <p className="pt-4">
-                Trust Woodcreek Carpet Tech for all your tile and grout cleaning needs. Our comprehensive approach ensures outstanding results and long-lasting protection. Contact us today to schedule an appointment and experience the transformative power of our professional tile and grout cleaning service.
-              </p>
-            </Col>
-          </Row>
         </Container>
       </section>
       <section className="py-5">
         <Container className="p-5">
           <Row>
             <Col>
-              <h3>
-                Woodcreek Carpet Tech: Your Trusted Tile & Grout Cleaning Solution in Placer & Sacramento County
-              </h3>
+              <h2>Outstanding results and long-lasting protection</h2></Col>
+          </Row>
+          <Row className="align-items-center">
+            <Col xl={4}>
+              <figure className="mb-1 mb-xl-0">
+                <Image className="w-100" src="/images/500x400/kitchen-tile-3.png" alt="Outstanding results and long-lasting protection" />
+              </figure>
+            </Col>
+            <Col xl={8}>
               <p>
                 When it comes to tile and grout cleaning in the Placer & Sacramento County area, Woodcreek Carpet Tech is your go-to solution. Our team of experts is dedicated to fully rejuvenating your tile and grout, delivering a level of cleanliness that surpasses at-home cleaning products.
               </p>
