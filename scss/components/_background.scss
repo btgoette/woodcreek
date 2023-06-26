@@ -67,3 +67,8 @@ body {
     repeating-conic-gradient(#9f8484 0 45deg, #b98181 0 90deg);
   background-size: var(--s) var(--s);
 }
+
+.bg-red-gradient {
+  background: linear-gradient(0deg, $primary 0%, $secondary 100%);
+  color: $white;
+}
