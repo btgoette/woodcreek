@@ -1,4 +1,5 @@
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import Link from 'next/link'
 
 import Head from "components/Head";
 import Hero from "components/Hero";
@@ -55,7 +56,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-primary py-5">
+      <section className="bg-red-gradient py-5">
         <Container className="p-5">
           <Row>
             <Col>
@@ -72,51 +73,39 @@ export default function Home() {
               <h2 className="text-center">Why Woodcreek Carpet Tech:  100% Satisfaction Guaranteed  </h2>
             </Col>
           </Row>
-          <Row>
-            <Col>
+          <Row className="align-items-center">
+            <Col lg={6}>
+              <Image
+                src="/images/500x400/residential-living-room-2.png"
+                alt=""
+              />
+            </Col>
+            <Col lg={6}>
               <p>
                 At Woodcreek Carpet Tech we know that finding a dependable carpet cleaner you can trust can be challenging. We focus on one thing, providing you with the absolute best carpet cleaning service possible.  We make sure that you are satisfied with our work so when it is time to have them cleaned again, there is no question. We are your solution with just a phone call.
               </p>
+              <p>
+                Woodcreek Carpet Tech is your trusted floor cleaning company offering the latest techniques and top-quality chemicals that are safe for kids and pets. Whether you require residential or commercial services, we are committed to delivering outstanding results. Our skilled technicians will eliminate dirt, stains, and odors from your carpets, restoring them to their pristine condition. Your satisfaction is our priority, and we strive to provide the best experience possible.
+              </p>
+              <p>
+                Be Sure to check us out on <Link href="https://www.yelp.com/biz/woodcreek-carpet-tech-roseville">Yelp</Link>, <Link href="https://nextdoor.com/pages/woodcreek-carpet-tech/">Nextdoor</Link>, <Link href="https://www.facebook.com/people/Woodcreek-Carpet-Tech/100068233811081/?_rdr">Facebook</Link>, and Google too.
+              </p>
             </Col>
           </Row>
-          <Row>
-            <Col xs={12}>
-              <h3 className="mb-0">We Offer:</h3>
-            </Col>
-            <Col lg={6}>
-              <ul>
+          <Row className="mt-4">
+            <Col>
+              <ul className="d-flex flex-wrap gap-4">
                 <li>Free Quotes</li>
                 <li>Safe for Kids &amp; Pets</li>
                 <li>Competitive Prices</li>
                 <li>100% Satisfaction Guaranteed</li>
                 <li>Excellent Customer Service</li>
-              </ul>
-            </Col>
-            <Col lg={6}>
-              <ul>
                 <li>Non-Toxic Cleaning Products</li>
                 <li>No Hidden Fees</li>
                 <li>We Move &amp; Replace Light Furniture</li>
                 <li>Locally Owned &amp; Operated</li>
                 <li>Trained &amp; Certified Technicians</li>
               </ul>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <p>
-                Be Sure to check us out on Yelp, Nextdoor, Facebook, and Google too.
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <p>
-                Woodcreek Carpet Tech is your trusted floor cleaning company offering the latest techniques and top-quality chemicals that are safe for kids and pets. Whether you require residential or commercial services, we are committed to delivering outstanding results. Our skilled technicians will eliminate dirt, stains, and odors from your carpets, restoring them to their pristine condition. Your satisfaction is our priority, and we strive to provide the best experience possible.
-              </p>
-              <p>
-                Explore our website to learn more about our services and offerings. For inquiries or to request an estimate, please call 916-532-4543. Choose Woodcreek Carpet Tech for exceptional floor cleaning solutions.
-              </p>
             </Col>
           </Row>
         </Container>
