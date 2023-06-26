@@ -46,6 +46,14 @@ body {
   color: $white;
 }
 
+.bg-carpet {
+  background-color: #666;
+  background-image: url(../../public/images/backgrounds/cleaner-1.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: $white;
+}
+
 .bg-tile {
   color: $white;
   a {
