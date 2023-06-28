@@ -37,8 +37,8 @@ export default function Home() {
           <Row>
             <Col lg={{ span: 6, order: 1 }}>
               <Image
-                src="/images/500x400/couch-12.png"
-                alt=""
+                src="/images/500x400/dog-on-carpet-unsplash.webp"
+                alt="Dog on clean carpet"
               />
             </Col>
             <Col lg={6}>
@@ -76,8 +76,8 @@ export default function Home() {
           <Row className="align-items-center">
             <Col lg={6}>
               <Image
-                src="/images/500x400/residential-living-room-2.png"
-                alt=""
+                src="/images/500x400/100-percent-satisfaction-midjourney.webp"
+                alt="100% Satisfaction Guaranteed"
               />
             </Col>
             <Col lg={6}>

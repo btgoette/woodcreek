@@ -22,7 +22,7 @@ export default function CarpetCleaning() {
             </Col>
             <Col lg={{ span: 6, order: 0 }} xl={4}>
               <figure className="mb-xl-0">
-                <Image className="w-100" src="/images/500x400/coffee-spill-1.png" alt="coffee spilled on carpet" />
+                <Image className="w-100" src="/images/500x400/wine-pexels.webp" alt="red wine" />
               </figure>
             </Col>
             <Col lg={6} xl={8}>
@@ -53,7 +53,7 @@ export default function CarpetCleaning() {
             </Col>
             <Col lg={{ span: 6, order: 0 }} xl={4}>
               <figure className="mb-xl-0">
-                <Image className="w-100" src="/images/500x400/cleaner-11.png" alt="coffee spilled on carpet" />
+                <Image className="w-100" src="/images/500x400/carpet-cleaning-midjourney.webp" alt="coffee spilled on carpet" />
               </figure>
             </Col>
             <Col lg={6} xl={8}>
@@ -81,7 +81,7 @@ export default function CarpetCleaning() {
             </Col>
             <Col lg={{ span: 6, order: 1 }} xl={4}>
               <figure className="mb-xl-0">
-                <Image className="w-100" src="/images/500x400/cleaner-2.png" alt="coffee spilled on carpet" />
+                <Image className="w-100" src="/images/500x400/clean-carpet-pexels.webp" alt="clean carpet with fruit" />
               </figure>
             </Col>
             <Col lg={6} xl={8}>

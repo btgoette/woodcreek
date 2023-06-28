@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f9f9;
+  background-color: $white;
 }
 
 .bg-primary {
@@ -40,7 +40,7 @@ body {
 
 .bg-kitchen-tile {
   background-color: #666;
-  background-image: url(../../public/images/backgrounds/kitchen-tile-1.png);
+  background-image: url(../../public/images/backgrounds/kitchen-tile-1.webp);
   background-size: cover;
   background-blend-mode: multiply;
   color: $white;
@@ -48,7 +48,7 @@ body {
 
 .bg-carpet {
   background-color: #666;
-  background-image: url(../../public/images/backgrounds/cleaner-1.png);
+  background-image: url(../../public/images/backgrounds/cleaner-1.webp);
   background-size: cover;
   background-blend-mode: multiply;
   color: $white;

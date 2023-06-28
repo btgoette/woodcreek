@@ -31,7 +31,7 @@ export default function Footer() {
                 <div>
                   <Link href="https://www.rosevillechamber.com/" target="_blank">
                     <figure>
-                      <Image src="/images/footer/rchlogo.png" alt="Member of the Roseville Chamber of Commerce" title="Member of the Roseville Chamber of Commerce" />
+                      <Image src="/images/footer/rchlogo.webp" alt="Member of the Roseville Chamber of Commerce" title="Member of the Roseville Chamber of Commerce" />
                     </figure>
                   </Link>
                 </div>

@@ -23,7 +23,7 @@ export default function TileCleaning() {
           <Row className="align-items-center">
             <Col xl={{ span: 4, order: 1 }}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/kitchen-tile-4.png" alt="Professional Tile and Grout Cleaning Services for Pristine Floors" />
+                <Image className="w-100" src="/images/500x400/professional-tile-pexels.webp" alt="Professional Tile and Grout Cleaning Services for Pristine Floors" />
               </figure>
             </Col>
             <Col xl={{ span: 8, order: 0 }}>
@@ -67,7 +67,7 @@ export default function TileCleaning() {
           <Row className="align-items-center">
             <Col xl={4}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/kitchen-tile-3.png" alt="Outstanding results and long-lasting protection" />
+                <Image className="w-100" src="/images/500x400/outstanding-results-pexels.webp" alt="Outstanding results and long-lasting protection" />
               </figure>
             </Col>
             <Col xl={8}>

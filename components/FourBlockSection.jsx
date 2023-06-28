@@ -6,7 +6,7 @@ export default function FourBlockSection() {
         <div className="tiles">
             <Row className="justify-content-center align-items-center">
                 <Col className="tile p-2" md={6} xl={4}>
-                    <Image className="w-100" src="/images/500x500/kitchen-tile-1.png" alt="" />
+                    <Image className="w-100" src="/images/500x500/pretreating-unsplash.webp" alt="" />
                 </Col>
                 <Col className="tile p-2 d-flex align-items-center justify-content-center" md={6} xl={4} >
                     <div className="bg-primary d-flex align-items-center justify-content-center text-center w-100 ratio ratio-1x1">
@@ -73,7 +73,7 @@ export default function FourBlockSection() {
                     </div>
                 </Col>
                 <Col className="tile p-2" md={6} xl={4}>
-                    <Image className="w-100" src="/images/500x500/kitchen-tile-6.png" alt="" />
+                    <Image className="w-100" src="/images/500x500/kitchen-pixabay.webp" alt="" />
                 </Col>
             </Row>
         </div >

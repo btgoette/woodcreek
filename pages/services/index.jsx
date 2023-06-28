@@ -31,7 +31,7 @@ export default function Services() {
           <Row id="residential" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 0 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/residential-living-room-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/residential-midjourney.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -44,7 +44,7 @@ export default function Services() {
           <Row id="commercial" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 1 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/professional-carpet-cleaning-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/commercial-midjourney.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -58,7 +58,7 @@ export default function Services() {
           <Row id="rug" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 0 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/couch-8.png" alt="" />
+                <Image className="w-100" src="/images/500x400/rugs-unsplash.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -72,7 +72,7 @@ export default function Services() {
           <Row id="tile" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 1 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/tile-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/tile-midjourney.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -86,7 +86,7 @@ export default function Services() {
           <Row id="pet" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 0 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/rug-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/pets-unsplash.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -100,7 +100,7 @@ export default function Services() {
           <Row id="scotchgard" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 1 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/scotchgard-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/scotchgard.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -114,7 +114,7 @@ export default function Services() {
           <Row id="flood" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 0 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/flood-damage-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/flood-midjourney.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -128,7 +128,7 @@ export default function Services() {
           <Row id="upholstery" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 1 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/upholstery-cleaning.png" alt="" />
+                <Image className="w-100" src="/images/500x400/upholstery-unsplash.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -143,7 +143,7 @@ export default function Services() {
           <Row id="repair" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 0 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/carpet-fix-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/carpet-repair-midjourney.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
@@ -157,7 +157,7 @@ export default function Services() {
           <Row id="rv" className="my-5 align-items-center">
             <Col lg={{ span: 6, order: 1 }} xl={5}>
               <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/rv-upholstery-1.png" alt="" />
+                <Image className="w-100" src="/images/500x400/rv-unsplash.webp" alt="" />
               </figure>
             </Col>
             <Col lg={6} xl={7} className="my-4">
