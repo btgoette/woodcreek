@@ -5,52 +5,52 @@ let cards = [
   {
     url: "#residential",
     title: "Residential Carpet Cleaning",
-    img: "/images/400x500/residential-living-room-1.png"
+    img: "/images/400x500/residential-midjourney.webp"
   },
   {
     url: "#commercial",
     title: "Commercial Carpet Cleaning",
-    img: "/images/400x500/professional-carpet-cleaning-1.png"
+    img: "/images/400x500/commercial-midjourney.webp"
   },
   {
     url: "#rug",
     title: "Area Rug Cleaning",
-    img: "/images/400x500/couch-8.png"
+    img: "/images/400x500/rugs-unsplash.webp"
   },
   {
     url: "#tile",
     title: "Tile & Grout Cleaning",
-    img: "/images/400x500/tile-1.png"
+    img: "/images/400x500/tile-midjourney.webp"
   },
   {
     url: "#pet",
     title: "Pet Odor & Stain Removal",
-    img: "/images/400x500/rug-1.png"
+    img: "/images/400x500/pets-unsplash.webp"
   },
   {
     url: "#scotchgard",
     title: "SCOTCHGARD® Protection",
-    img: "/images/400x500/scotchgard-1.png"
+    img: "/images/400x500/scotchgard.webp"
   },
   {
     url: "#flood",
     title: "Water Damage & Flood Restoration",
-    img: "/images/400x500/flood-damage.png"
+    img: "/images/400x500/flood-midjourney.webp"
   },
   {
     url: "#upholstery",
     title: "Upholstery Cleaning",
-    img: "/images/400x500/upholstery-cleaning.png"
+    img: "/images/400x500/upholstery-unsplash.webp"
   },
   {
     url: "#install",
     title: "Carpet Repair",
-    img: "/images/400x500/carpet-fix-1.png"
+    img: "/images/400x500/carpet-repair-midjourney.webp"
   },
   {
     url: "#rv",
     title: "RV Interior Cleaning",
-    img: "/images/400x500/rv-upholstery-1.png"
+    img: "/images/400x500/rv-unsplash.webp"
   }
 ]
 

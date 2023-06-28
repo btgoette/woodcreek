@@ -3,63 +3,63 @@
     background-blend-mode: overlay;
     padding: 4rem 0;
     &.home {
-        background-image: url("../../public/images/hero/living-room-with-rug.png");
+        background-image: url("../../public/images/800x450/hero-living-room-unsplash.webp");
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: cover;
 
         @media only screen and (min-width: $lg) {
-            background-image: url("../../public/images/hero-md/living-room-with-rug.png");
+            background-image: url("../../public/images/1600x450/hero-living-room-unsplash.webp");
         }
     }
     &.services {
-        background-image: url("../../public/images/hero/bedroom-6.png");
+        background-image: url("../../public/images/800x450/hero-living-room-pexels.webp");
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: cover;
 
         @media only screen and (min-width: $lg) {
-            background-image: url("../../public/images/hero-md/bedroom-6.png");
+            background-image: url("../../public/images/1600x450/hero-living-room-pexels.webp");
         }
     }
     &.carpet-cleaning {
-        background-image: url("../../public/images/hero/bedroom-with-couch.png");
+        background-image: url("../../public/images/800x450/hero-carpet-pexels.webp");
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: cover;
 
         @media only screen and (min-width: $lg) {
-            background-image: url("../../public/images/hero-md/bedroom-with-couch.png");
+            background-image: url("../../public/images/1600x450/hero-carpet-pexels.webp");
         }
     }
     &.tile-cleaning {
-        background-image: url("../../public/images/hero/kitchen-tile-1.png");
+        background-image: url("../../public/images/800x450/hero-tiles-unsplash.webp");
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: cover;
 
         @media only screen and (min-width: $lg) {
-            background-image: url("../../public/images/hero-md/kitchen-tile-1.png");
+            background-image: url("../../public/images/1600x450/hero-tiles-unsplash.webp");
         }
     }
     &.reviews {
-        background-image: url("../../public/images/hero/living-room-2.png");
+        background-image: url("../../public/images/800x450/hero-kitchen-pexels.webp");
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: cover;
 
         @media only screen and (min-width: $lg) {
-            background-image: url("../../public/images/hero-md/living-room-2.png");
+            background-image: url("../../public/images/1600x450/hero-kitchen-pexels.webp");
         }
     }
     &.contact {
-        background-image: url("../../public/images/hero/living-room-1.png");
+        background-image: url("../../public/images/800x450/hero-sofa-pixabay.webp");
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: cover;
 
         @media only screen and (min-width: $lg) {
-            background-image: url("../../public/images/hero-md/living-room-1.png");
+            background-image: url("../../public/images/1600x450/hero-sofa-pixabay.webp");
         }
     }
 
