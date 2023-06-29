@@ -13,7 +13,7 @@ export default function CarpetCleaning() {
     <>
 
       <Hero {...hero} />
-      
+
       <section className="py-5">
         <Container className="p-5">
           <Row className="align-items-center">
