@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 import Head from 'components/Head';
 import Hero from 'components/Hero';
-import FourBlockSection from '../../components/FourBlockSection';
+import SixTiles from '../../components/SixTiles';
 
 let hero = {
   background: 'tile-cleaning',
@@ -16,17 +16,11 @@ export default function TileCleaning() {
       <section className="py-5">
         <Container className="p-5">
           <Row className="align-items-center">
-            <Col>
-              <h2>Professional Tile and Grout Cleaning Services for Pristine Floors</h2>
+            <Col className="mb-2 mb-lg-0" lg={{ span: 5, order: 1 }}>
+              <Image className="w-100" src="/images/500x400/professional-tile-pexels.webp" alt="Professional Tile and Grout Cleaning Services for Pristine Floors" />
             </Col>
-          </Row>
-          <Row className="align-items-center">
-            <Col xl={{ span: 4, order: 1 }}>
-              <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/professional-tile-pexels.webp" alt="Professional Tile and Grout Cleaning Services for Pristine Floors" />
-              </figure>
-            </Col>
-            <Col xl={{ span: 8, order: 0 }}>
+            <Col lg={{ span: 7, order: 0 }}>
+              <h2 className="mt-lg-0">Professional Tile and Grout Cleaning Services for Pristine Floors</h2>
               <p>
                 Tile and stone surfaces in high-traffic areas like kitchens, foyers, and family rooms require regular maintenance to combat the accumulation of dirt and grime. Neglected grout can become stained and filled with buildup, providing a breeding ground for bacteria and resulting in unsightly discoloration.
               </p>
@@ -35,9 +29,6 @@ export default function TileCleaning() {
               </p>
               <p>
                 Don&apos;t settle for surface-level cleanliness. Trust Woodcreek Carpet Tech to provide a thorough tile and grout cleaning that restores the pristine condition of your floors. Say goodbye to stains and hello to fresh, bacteria-free surfaces.
-              </p>
-              <p>
-                Experience the difference of professional tile and grout cleaning. Contact us today to schedule an appointment and enjoy the benefits of our expertise and advanced cleaning techniques.
               </p>
             </Col>
           </Row>
@@ -55,22 +46,17 @@ export default function TileCleaning() {
               </h3>
             </Col>
           </Row>
-          <FourBlockSection />
+          <SixTiles />
         </Container>
       </section>
       <section className="py-5">
         <Container className="p-5">
-          <Row>
-            <Col>
-              <h2>Outstanding results and long-lasting protection</h2></Col>
-          </Row>
           <Row className="align-items-center">
-            <Col xl={4}>
-              <figure className="mb-1 mb-xl-0">
-                <Image className="w-100" src="/images/500x400/outstanding-results-pexels.webp" alt="Outstanding results and long-lasting protection" />
-              </figure>
+            <Col className="mb-2 mb-lg-0" lg={5}>
+              <Image className="w-100" src="/images/500x400/outstanding-results-pexels.webp" alt="Outstanding results and long-lasting protection" />
             </Col>
-            <Col xl={8}>
+            <Col lg={7}>
+              <h2 className="mt-lg-0">Outstanding Results &amp; Long-Lasting Protection</h2>
               <p>
                 When it comes to tile and grout cleaning in the Placer & Sacramento County area, Woodcreek Carpet Tech is your go-to solution. Our team of experts is dedicated to fully rejuvenating your tile and grout, delivering a level of cleanliness that surpasses at-home cleaning products.
               </p>
@@ -79,9 +65,6 @@ export default function TileCleaning() {
               </p>
               <p>
                 Don&apos;t wait until your tiles and grout start appearing dingy. Take proactive action and schedule a deep clean with Woodcreek Carpet Tech today. Contact us now to discover how we can transform your home and restore the beauty of your tile and grout.
-              </p>
-              <p>
-                Choose Woodcreek Carpet Tech for all your tile and grout cleaning needs. Our expertise and commitment to excellence will leave you with spotless, rejuvenated surfaces. Don&apos;t delay - reach out to us today!
               </p>
             </Col>
           </Row>

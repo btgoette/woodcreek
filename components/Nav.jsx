@@ -67,7 +67,7 @@ export default function CustomNav() {
   return (
     <>
       {['xl'].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="px-5">
+        <Navbar key={expand} bg="light" expand={expand} className="px-md-5">
           <Container>
             <Navbar.Brand href="/">
               <Logo />
