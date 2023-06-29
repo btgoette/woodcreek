@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from 'next/link'
 
 let copyright = {
-    company:"Woodcreek Carpet Tech"
+    company: "Woodcreek Carpet Tech"
 }
 
 export default function Copyright() {
@@ -29,10 +29,7 @@ export default function Copyright() {
                             >
                                 Website Design
                             </Link>&nbsp;
-                            by Brymels LLC.&nbsp;|&nbsp;
-                            <Link href="/policies/privacy-policy" title="privacy policy">
-                                Privacy Policy
-                            </Link>
+                            by Brymels LLC.
                         </p>
                     </Col>
                 </Row>
